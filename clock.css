@@ -1,0 +1,54 @@
+body{
+background: #43C6AC; 
+background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);   
+background: linear-gradient(to bottom, #191654, #43C6AC); 
+width: 100vw;
+height: 100vh;
+background-repeat: no-repeat;
+ 
+}
+center{
+	color: white;
+	font-family: monospace;
+}
+span{
+	font-size: 44px;
+	 
+	font-weight: 600;
+}
+.sup{
+	margin: 30px;
+}
+.fa{
+	font-size: 2.6em;
+	font-color:lightcyan;
+}
+.single-line{
+	display: inline-flex;
+}
+#clock{
+	border: 3px solid greenyellow;
+    width: 300px;
+    border-radius:100px;
+    height: 300px;
+    padding: 8px;
+    display: inline-table;
+}
+#timer{
+	font-size: 
+}
+#clock-bar{
+	 
+    width: 280px;
+    border-radius:100px;
+    height: 0px;
+    background: tomato;
+    position: absolute;
+  justify-content: center;
+transform: translateY(-50%);
+}
+#content{
+	color: white;
+	 position: relative;
+	 margin: 44px;
+}

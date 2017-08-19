@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>POMODORO CLOCK</title>
+	<link rel="stylesheet" type="text/css" href="clock.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <script type="text/javascript" src="jquery-3.1.1.min.js"></script> -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+	<script type="text/javascript" src="clock.js"></script>
+</head>
+<body>
+
+<center>
+			<h1>free code camp</h1>
+	<h2>presents</h2>
+	<p>pomodoro clock</p>
+<div class="single-line">
+			<div class="sup">
+				<h3>Break Length</h3>
+				<br>
+				<div class="sub">
+					<i class="fa fa-minus minus1 fa-2x " aria-hidden="true"></i>
+					<span id="break">5</span>
+					<i class="fa fa-plus plus1 fa-2x" aria-hidden="true"></i>
+				</div>	
+			</div>
+
+
+			<div class="sup">
+				<h3>Session Length</h3>
+				<br>
+				<div class="sub">
+					<i class="fa fa-minus minus2 fa-2x" aria-hidden="true"></i>
+					<span id="session">25</span>
+					<i class="fa fa-plus plus2 fa-2x" aria-hidden="true"></i>
+				</div>				
+			</div>
+
+
+</div>
+
+	<br>
+<button class="btn btn-info" id="start-btn">Start</button>
+<div id="clock">
+<div id="clock-bar">
+	
+</div>
+<div id="content">
+		<span id="timer"></span>	
+	<br>
+	<span id="text"></span>
+</div>
+</div>
+	<button class="btn btn-danger" id="stop-btn">Stop</button>
+</center>
+ 
+
+</body>
+</html>
